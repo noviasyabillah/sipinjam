@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('judul', 'Daftar Alat')
+@section('judul', 'Daftar Alat - Laboratorium')
 
 @section('konten')
   <a href="{{ route('alat.create') }}">+ Tambah Alat</a>
